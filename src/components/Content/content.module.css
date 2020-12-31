@@ -1,0 +1,69 @@
+.overlayForContent {
+  background-color: rgba(10, 10, 10, 0.3);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.ContentContainer {
+  width: 95%;
+  height: auto;
+  margin-left: 5rem;
+  margin-top: 6rem;
+}
+
+.ContentContainer h1 {
+  color: #095fe9;
+  font-size: 6rem;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+}
+
+.ContentContainer p {
+  font-size: 2rem;
+  color: white;
+  margin-top: 5rem;
+}
+
+.buttonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3rem;
+}
+
+.ImageContainer img {
+  height: 40rem;
+  width: 40rem;
+}
+
+.TechnologyContainer {
+  margin-top: 10rem;
+  margin-left: 5rem;
+  color: #095fe9;
+}
+
+.technology {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.IconContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icons {
+  color: white;
+  font-size: 7rem;
+  margin: 0px 2rem;
+}
+/*# sourceMappingURL=content.module.css.map */

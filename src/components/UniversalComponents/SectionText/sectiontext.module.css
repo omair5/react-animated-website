@@ -1,0 +1,40 @@
+.sectionTextContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sectionTextContainer h4 {
+  font-size: 3rem;
+  text-align: left;
+}
+
+.sectionTextContainer h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+.sectionTextContainer .dash {
+  height: 3px;
+  width: 6rem;
+  margin-right: 1rem;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.sectionTextContainer p {
+  text-align: justify;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+/*# sourceMappingURL=sectiontext.module.css.map */

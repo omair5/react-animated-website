@@ -1,0 +1,14 @@
+$blue-color: #095fe9;
+$text-color: white;
+.myButton {
+  button {
+    background-color: $blue-color;
+    border: none;
+    padding: 1rem 3rem;
+    color: $text-color;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1.5rem;
+    border-radius: 2rem;
+  }
+}

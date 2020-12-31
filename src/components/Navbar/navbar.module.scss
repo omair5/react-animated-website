@@ -1,0 +1,16 @@
+// VARIABLES
+$navlink-color: white !important;
+$companyname-color: #095fe9;
+
+.MainContainer {
+  height: 13%;
+}
+.companyName {
+  font-size: 30px;
+  color: $companyname-color;
+  font-weight: bolder;
+}
+.navlink {
+  font-size: 2rem;
+  color: $navlink-color;
+}

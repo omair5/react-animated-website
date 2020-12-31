@@ -1,0 +1,26 @@
+.sectionTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h4 {
+    font-size: 3rem;
+    text-align: left;
+  }
+  h1 {
+    font-size: 5rem;
+    font-weight: bolder;
+  }
+  .dash {
+    height: 3px;
+    width: 6rem;
+    margin-right: 1rem;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  p {
+    text-align: justify;
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+}

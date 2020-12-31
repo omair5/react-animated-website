@@ -1,0 +1,15 @@
+.MainContainer {
+  height: 13%;
+}
+
+.companyName {
+  font-size: 30px;
+  color: #095fe9;
+  font-weight: bolder;
+}
+
+.navlink {
+  font-size: 2rem;
+  color: white !important;
+}
+/*# sourceMappingURL=navbar.module.css.map */
