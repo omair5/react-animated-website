@@ -19,19 +19,4 @@
       -ms-flex-align: center;
           align-items: center;
 }
-
-.mainHeadings {
-  text-align: center;
-  padding: 3rem;
-}
-
-.mainHeadings h1 {
-  font-size: 3rem;
-  color: #095fe9;
-  font-weight: bolder;
-}
-
-.mainHeadings h2 {
-  font-size: 4rem;
-}
 /*# sourceMappingURL=section.module.css.map */

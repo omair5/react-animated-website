@@ -26,6 +26,20 @@ h5 {
 h6 {
   font-size: 1.05rem;
 }
-p{
+p {
   font-size: 1.6rem;
+}
+
+$blue-color: #095fe9;
+.mainHeadings {
+  text-align: center;
+  padding: 3rem;
+  h1 {
+    font-size: 3rem;
+    color: $blue-color;
+    font-weight: bolder;
+  }
+  h2 {
+    font-size: 4rem;
+  }
 }

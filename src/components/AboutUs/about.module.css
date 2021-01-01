@@ -1,0 +1,28 @@
+.aboutUs {
+  min-height: 100vh;
+}
+
+.aboutusimage {
+  display: block;
+  margin: auto;
+  width: 85%;
+}
+
+.aboutUsContainer {
+  margin-top: 5rem;
+}
+
+.aboutustext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutustext p {
+  font-size: 2rem;
+  text-align: justify;
+}
+/*# sourceMappingURL=about.module.css.map */

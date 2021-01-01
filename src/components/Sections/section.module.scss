@@ -1,24 +1,11 @@
-$blue-color: #095fe9;
 @import "../../MyScssMixins/VerticalnHorizontalCenter.scss";
 
+// THIS CSS IS USED INSIDE SECTION 1 , SECTION 2 , SECTION 3
 .sectionContainers {
   min-height: 100vh;
   display: flex;
   align-items: center;
   .column1 {
     @include VerticalnHorizontalCenter;
-  }
-}
-
-.mainHeadings {
-  text-align: center;
-  padding: 3rem;
-  h1 {
-    font-size: 3rem;
-    color: $blue-color;
-    font-weight: bolder;
-  }
-  h2 {
-    font-size: 4rem;
   }
 }
