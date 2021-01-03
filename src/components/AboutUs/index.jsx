@@ -8,6 +8,7 @@ const AboutUs = () => {
     return (
         <>
             <Container className={styles.aboutUs}>
+                {/* mainHeadings class is used from app.css */}
                 <div className='mainHeadings'>
                     <h1>ABOUT US</h1>
                     <h2>We Are CodeFox</h2>

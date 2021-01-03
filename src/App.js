@@ -4,6 +4,7 @@ import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Section from './components/Sections';
 import AboutUs from './components/AboutUs';
+import OurServices from './components/OurServices';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Section />
       <AboutUs />
+      <OurServices />
     </>
   );
 }

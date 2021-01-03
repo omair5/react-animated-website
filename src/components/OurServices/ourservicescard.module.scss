@@ -1,0 +1,30 @@
+@import '../../MyScssMixins/VerticalnHorizontalCenter.scss';
+$bluecolor:rgb(81, 147, 228);
+.cardContainer {
+  background-color: rgb(245, 245, 245);
+  width: 90%;
+  margin: auto;
+  min-height: 30rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  flex-direction: column;
+  @include VerticalnHorizontalCenter;
+  transition: all 0.5s ease;
+  h5{
+      padding: 1rem;
+      font-size: 3rem;
+  }
+  p{
+      margin-top: 15px;
+  }
+  .numbering{
+      color: $bluecolor;
+      font-weight: bolder;
+  }
+}
+
+.cardContainer:hover{
+    transform: scale(1.07);
+    transition: 0.5s;
+
+}
