@@ -1,0 +1,32 @@
+.container1 {
+  display: flex;
+  .inputFieldBox {
+    flex-basis: 50%;
+    margin: 1rem 1rem;
+    .myinput {
+      height: 5rem;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.MessageBox {
+  margin: 1rem 1rem;
+  .MessageBoxField {
+    resize: none;
+    font-size: 1.5rem;
+  }
+}
+
+.SubmitButton {
+  background-color: rgb(81, 147, 228);
+  color: white;
+  margin: 1rem 1rem;
+  width: 30%;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.mainContainer {
+  background-color: black;
+  overflow: hidden;
+  p {
+    color: white;
+  }
+}
+.rowContainer {
+  margin: 3rem auto;
+}
+.column2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hrLine {
+  width: 100%;
+  margin: 1rem auto;
+  height: 3px;
+  background-color: rgb(81, 147, 228);
+}

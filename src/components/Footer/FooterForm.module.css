@@ -1,0 +1,39 @@
+.container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container1 .inputFieldBox {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  margin: 1rem 1rem;
+}
+
+.container1 .inputFieldBox .myinput {
+  height: 5rem;
+  font-size: 1.5rem;
+}
+
+.MessageBox {
+  margin: 1rem 1rem;
+}
+
+.MessageBox .MessageBoxField {
+  resize: none;
+  font-size: 1.5rem;
+}
+
+.SubmitButton {
+  background-color: #5193e4;
+  color: white;
+  margin: 1rem 1rem;
+  width: 30%;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+/*# sourceMappingURL=FooterForm.module.css.map */

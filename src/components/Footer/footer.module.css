@@ -1,0 +1,32 @@
+.mainContainer {
+  background-color: black;
+  overflow: hidden;
+}
+
+.mainContainer p {
+  color: white;
+}
+
+.rowContainer {
+  margin: 3rem auto;
+}
+
+.column2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hrLine {
+  width: 100%;
+  margin: 1rem auto;
+  height: 3px;
+  background-color: #5193e4;
+}
+/*# sourceMappingURL=footer.module.css.map */
