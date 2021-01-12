@@ -34,6 +34,24 @@ $blue-color: #095fe9;
     width: 40rem;
   }
 }
+.svgAnimation {
+  animation-name: svgAnimation;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out
+}
+
+@keyframes svgAnimation {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+ 
+}
 
 .TechnologyContainer {
   margin-top: 10rem;

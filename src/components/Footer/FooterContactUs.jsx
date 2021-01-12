@@ -11,10 +11,10 @@ const FooterContactUs = () => {
                 <h3>Connect with us</h3>
                 <h1>hello@codefox.com</h1>
                 <div>
-                    <FontAwesomeIcon icon={faGithub} className={styles.socialIcons}/>
-                    <FontAwesomeIcon icon={faFacebookF} className={styles.socialIcons}/>
-                    <FontAwesomeIcon icon={faTwitter} className={styles.socialIcons}/>
-                    <FontAwesomeIcon icon={faInstagram} className={styles.socialIcons}/>
+                    <FontAwesomeIcon icon={faGithub} className={styles.socialIcons} />
+                    <FontAwesomeIcon icon={faFacebookF} className={styles.socialIcons} />
+                    <FontAwesomeIcon icon={faTwitter} className={styles.socialIcons} />
+                    <FontAwesomeIcon icon={faInstagram} className={styles.socialIcons} />
                 </div>
 
             </div>

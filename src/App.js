@@ -6,6 +6,10 @@ import Section from './components/Sections';
 import AboutUs from './components/AboutUs';
 import OurServices from './components/OurServices';
 import Footer from './components/Footer';
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 
 function App() {
   return (

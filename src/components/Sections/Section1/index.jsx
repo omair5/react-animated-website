@@ -24,8 +24,10 @@ const Section1 = () => {
 
                     <Col md={7}>
                         {/* THIS COMPONENT IS USED FROM UNIVERSAL COMPONENTS */}
+
                         <SectionImage
-                            imageToShow={Section1Img} />
+                            imageToShow={Section1Img}
+                        />
                     </Col>
                 </Row>
 

@@ -2,15 +2,19 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import styles from './navbar.module.css'
+import { Animated } from "react-animated-css";
+
 const MyNavbar = () => {
     return (
         <>
             <Navbar collapseOnSelect expand="lg" variant='dark' className={styles.MainContainer}>
                 <Navbar.Brand className={'d-flex align-items-center ml-5'} >
+
                     <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="60.000000pt" height="60.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
                         <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
                             fill="#095fe9" stroke="none">
-                            <path d="M2400 4525 c-227 -36 -454 -145 -690 -332 -150 -119 -492 -471 -657
+                            <path
+                                d="M2400 4525 c-227 -36 -454 -145 -690 -332 -150 -119 -492 -471 -657
                                     -677 -286 -357 -381 -542 -448 -872 -77 -380 34 -724 360 -1111 194 -231 665
                                     -652 910 -815 169 -111 338 -181 570 -233 207 -47 343 -44 533 11 283 81 495
                                     225 832 563 324 325 569 634 680 856 69 139 109 255 144 425 77 363 -26 704
@@ -26,10 +30,13 @@ const MyNavbar = () => {
                                     64 -13 0 -101 -101 -140 -161 -87 -134 -104 -311 -42 -443 33 -71 128 -179
                                     189 -218 47 -28 36 -32 -28 -9 -170 59 -323 168 -413 295 -99 139 -144 269
                                     -153 441 -9 177 25 333 112 520 90 193 196 329 483 620 115 116 227 238 251
-                                    273 106 157 137 289 95 407 -12 34 105 -86 151 -155z"/>
+                                    273 106 157 137 289 95 407 -12 34 105 -86 151 -155z"
+                            />
                         </g>
                     </svg>
-                    <p className={styles.companyName}>CodeFox</p>
+                    <Animated animationIn="bounceIn" animationOut="fadeOut" isVisible={true} animationInDuration={2000} >
+                        <p className={styles.companyName}>CodeFox</p>
+                    </Animated>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">

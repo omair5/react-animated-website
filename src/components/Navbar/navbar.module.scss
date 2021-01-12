@@ -14,3 +14,14 @@ $companyname-color: #095fe9;
   font-size: 2rem;
   color: $navlink-color;
 }
+.navlink::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: $companyname-color;
+  transition: all 0.5s ease;
+}
+.navlink:hover::after {
+  width: 100%;
+}

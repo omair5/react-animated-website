@@ -15,11 +15,11 @@ const AboutUs = () => {
                 </div>
                 <Row className={styles.aboutUsContainer}>
                     <Col md={7} >
-                        <img src={AboutUsImg} alt="about us" className={styles.aboutusimage} />
+                        <img src={AboutUsImg} alt="about us" className={styles.aboutusimage} data-aos="fade-up" data-aos-delay="300" data-aos-duration="500" data-aos-once="true" />
                     </Col>
 
                     <Col md={5} className={styles.aboutustext}>
-                        <p>
+                        <p data-aos="fade-up" data-aos-delay="500" data-aos-duration="600" data-aos-once="true">
                             We are a team of software engineers, product designers and industry leaders with a passion for building rich user interfaces
                             and making the world’s software experience more delightful. We specialize in React, React Native, Node, TypeScript and Rust —
                             leading edge technologies for building best-in-class iOS, Android and web apps.
