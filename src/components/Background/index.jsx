@@ -4,7 +4,7 @@ const BackgroundParticles = () => {
     return (
         <>
             <Particles
-                style={{ backgroundColor: 'black', position: 'absolute', zIndex: -100 }}
+                style={{ backgroundColor:'black',position: 'absolute', width: '100%', height: '100%', zIndex: -1 }}
                 params={{
                     "particles": {
                         "number": {

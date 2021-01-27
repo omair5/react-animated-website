@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,QAAQ,EAAE,KAAK;EACf,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,OAAO;EACf,KAAK,EAAE,OAAO;EACd,OAAO,EAAE,GAAG;EACZ,gBAAgB,EAAE,KAAK;EACvB,aAAa,EAAE,GAAG;CACnB",
+    "sources": [
+        "gototop.module.scss"
+    ],
+    "names": [],
+    "file": "gototop.module.css"
+}

@@ -17,10 +17,10 @@ const Content = () => {
     return (
         <div className={styles.overlayForContent}>
             <MyNavbar />
-            <Container fluid >
+            <Container fluid className='mt-5 mt-md-0' >
                 <Row>
                     <Col md={8} xs={12}>
-                        <div className={styles.ContentContainer}>
+                        <div className={styles.ContentContainer} >
                             <h1>
                                 Excellence in <Typed
                                     strings={[
@@ -32,7 +32,7 @@ const Content = () => {
                                     loop >
                                 </Typed>
                             </h1>
-                            <Animated animationIn="bounceInLeft" isVisible={true} animationInDuration={2000}>
+                            <Animated animationIn="bounceInLeft" isVisible={true} animationInDuration={1500}>
                                 <p>
                                     We specialize in React, React Native, Node, TypeScript and Rust — leading edge technologies
                                     for building best-in-class iOS, Android and web apps.

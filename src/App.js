@@ -14,11 +14,11 @@ AOS.init();
 function App() {
   return (
     <>
-      <Header />
-      <Section />
-      <AboutUs />
-      <OurServices />
-      <Footer />
+      <Header id='header' />
+      <Section id='section' />
+      <AboutUs id='about' />
+      <OurServices id='services' />
+      <Footer id='footer' />
     </>
   );
 }

@@ -3,23 +3,23 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import OurServicesCard from './OurServicesCard';
-const OurServices = () => {
+const OurServices = ({id}) => {
     return (
         <>
-            <div className='mainHeadings'>
+            <div className='mainHeadings' id={id}>
                 <h1>OUR SERVICES</h1>
                 <h2>We Are Ready to Help</h2>
                 <Container>
                     {/* this is row 1 */}
                     <Row style={{marginTop:'2rem'}}>
-                        <Col md={6}>
+                        <Col md={6} className={'my-3'}>
                             <OurServicesCard
                                 count='01'
                                 heading='CTO as a Service'
                                 description='Don’t have a technical co-founder yet? Need to jump start your MVP to get ahead of your next funding round? We have the experience you need.'
                             />
                         </Col>
-                        <Col md={6}>
+                        <Col md={6} className={'my-3'}>
                         <OurServicesCard
                                 count='02'
                                 heading='Product Development'
@@ -30,14 +30,14 @@ const OurServices = () => {
 
                     {/* this is row 2 */}
                     <Row style={{marginTop:'2rem'}}>
-                        <Col md={6}>
+                        <Col md={6} className={'my-3'}>
                         <OurServicesCard
                                 count='03'
                                 heading='Technology Training'
                                 description='Need to level-up your team’s knowledge? Planning to adopt React or React Native or TypeScript? Talk to us about on-site training.'
                             />
                         </Col>
-                        <Col md={6}>
+                        <Col md={6} className={'my-3'}>
                         <OurServicesCard
                                 count='04'
                                 heading='Consulting and Advising'

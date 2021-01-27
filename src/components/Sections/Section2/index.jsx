@@ -12,7 +12,7 @@ const Section2 = () => {
     return (
         <>
             <Container className={styles.sectionContainers}>
-                < Row >
+                < Row className={styles.ImageThenText}>
                     <Col md={7}>
                         {/* THIS COMPONENT IS USED FROM UNIVERSAL COMPONENTS */}
                         <SectionImage
@@ -27,6 +27,24 @@ const Section2 = () => {
                             sectionPara={sectionPara}
                             sectionColor={'rgb(12, 183, 150)'} />
                     </Col>
+
+                </Row>
+                < Row className={styles.TextThenImage}>
+                    <Col md={5} className={styles.column1}>
+                        {/* THIS COMPONENT IS USED FROM UNIVERSAL COMPONENTS */}
+                        <SectionText
+                            sectionNumber={'02'}
+                            sectionHeading={'Sellflow'}
+                            sectionPara={sectionPara}
+                            sectionColor={'rgb(12, 183, 150)'} />
+                    </Col>
+
+                    <Col md={7}>
+                        {/* THIS COMPONENT IS USED FROM UNIVERSAL COMPONENTS */}
+                        <SectionImage
+                            imageToShow={Section2Img} />
+                    </Col>
+
 
                 </Row>
             </Container>

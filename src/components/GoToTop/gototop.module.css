@@ -1,0 +1,12 @@
+.gototop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  font-size: 50px;
+  cursor: pointer;
+  color: #095fe9;
+  z-index: 100;
+  background-color: white;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=gototop.module.css.map */

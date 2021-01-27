@@ -4,10 +4,10 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import styles from './about.module.css'
 import AboutUsImg from './aboutus.webp'
-const AboutUs = () => {
+const AboutUs = ({ id }) => {
     return (
         <>
-            <Container className={styles.aboutUs}>
+            <Container className={styles.aboutUs} id={id}>
                 {/* mainHeadings class is used from app.css */}
                 <div className='mainHeadings'>
                     <h1>ABOUT US</h1>

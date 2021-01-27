@@ -3,6 +3,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import styles from './navbar.module.css'
 import { Animated } from "react-animated-css";
+import { Link } from "react-scroll";
 
 const MyNavbar = () => {
     return (
@@ -41,10 +42,45 @@ const MyNavbar = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link className={`${styles.navlink} mx-5`}>HOME</Nav.Link>
-                        <Nav.Link className={`${styles.navlink} mx-5`}>PROJECTS</Nav.Link>
-                        <Nav.Link className={`${styles.navlink} mx-5`}>ABOUT</Nav.Link>
-                        <Nav.Link className={`${styles.navlink} mx-5`}>CONTACT</Nav.Link>
+                        <Link
+                            to="header"
+                            smooth={true}
+                            duration={700}
+                        >
+                            <Nav.Link className={`${styles.navlink} px-5 text-center`}>HOME</Nav.Link>
+                        </Link>
+
+                        <Link
+                            to="section"
+                            smooth={true}
+                            duration={700}
+                        >
+                            <Nav.Link className={`${styles.navlink} px-5 text-center`}>PROJECTS</Nav.Link>
+                        </Link>
+
+                        <Link
+                            to="about"
+                            smooth={true}
+                            duration={700}
+                        >
+                            <Nav.Link className={`${styles.navlink} px-5 text-center`}>ABOUT</Nav.Link>
+                        </Link>
+
+                        <Link
+                            to="services"
+                            smooth={true}
+                            duration={700}
+                        >
+                            <Nav.Link className={`${styles.navlink} px-5 text-center`}>SERVICES</Nav.Link>
+                        </Link>
+
+                        <Link
+                            to="footer"
+                            smooth={true}
+                            duration={700}
+                        >
+                            <Nav.Link className={`${styles.navlink} px-5 text-center`}>CONTACT</Nav.Link>
+                        </Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

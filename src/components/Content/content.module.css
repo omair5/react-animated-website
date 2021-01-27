@@ -1,8 +1,7 @@
 .overlayForContent {
-  background-color: rgba(10, 10, 10, 0.3);
   width: 100%;
-  height: 100%;
-  position: absolute;
+  height: auto;
+  position: relative;
 }
 
 .ContentContainer {
@@ -102,5 +101,110 @@
   color: white;
   font-size: 7rem;
   margin: 0px 2rem;
+}
+
+@media only screen and (max-width: 1290px) {
+  .ContentContainer h1 {
+    font-size: 4rem;
+  }
+  .ContentContainer p {
+    font-size: 1.8rem;
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 1213px) {
+  .ImageContainer img {
+    height: 30rem;
+    width: 30rem;
+  }
+  .technology h1 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 990px) and (min-width: 770px) {
+  .ContentContainer h1 {
+    font-size: 2.5rem;
+  }
+  .ContentContainer p {
+    font-size: 1.3rem;
+    margin-top: 3rem;
+  }
+  .ImageContainer img {
+    height: 25rem;
+    width: 25rem;
+  }
+  .technology h1 {
+    font-size: 13px;
+  }
+  .icons {
+    font-size: 5rem;
+    margin: 0px 1rem;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .ContentContainer {
+    margin: auto;
+  }
+  .ContentContainer h1 {
+    font-size: 2.5rem;
+  }
+  .ContentContainer p {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+  .ImageContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .ImageContainer img {
+    display: block;
+  }
+  .technology h1 {
+    font-size: 15px;
+  }
+  .icons {
+    font-size: 3rem;
+    margin: 0px 1rem;
+  }
+  .buttonContainer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 0;
+  }
+  .ImageContainer img {
+    height: 15rem;
+    width: 30rem;
+    padding-right: 4rem;
+  }
+  .TechnologyContainer {
+    margin-top: 0%;
+    padding: 1rem 0;
+    margin-left: 0%;
+  }
+  .technology h1 {
+    font-size: 17px;
+    padding: 1rem;
+    margin: auto;
+  }
+  .ContentContainer p {
+    margin-top: 0;
+    text-align: justify;
+  }
+  .IconContainer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 /*# sourceMappingURL=content.module.css.map */

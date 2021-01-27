@@ -11,4 +11,20 @@ $text-color: white;
     margin: 1.5rem;
     border-radius: 2rem;
   }
+  button:focus {
+    outline: none;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .myButton {
+    button {
+      padding: 1rem 2rem;
+      color: $text-color;
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin: 1.5rem;
+      border-radius: 1.5rem;
+    }
+  }
 }

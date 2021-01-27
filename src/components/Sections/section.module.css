@@ -19,4 +19,17 @@
       -ms-flex-align: center;
           align-items: center;
 }
+
+.TextThenImage {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .TextThenImage {
+    display: block;
+  }
+  .ImageThenText {
+    display: none;
+  }
+}
 /*# sourceMappingURL=section.module.css.map */
